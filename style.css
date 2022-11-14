@@ -1,0 +1,24 @@
+* {margin: 0;}
+
+
+nav {
+    background-color: aliceblue;
+    margin-top: 0;
+}
+nav li{
+    background-color: aliceblue;
+    margin-top: 0;
+}
+
+nav li:nth-of-type(even){
+    background-color: darkgray;
+    box-sizing: border-box;
+}
+
+nav li:first-child{
+    font-size: 30px;
+
+}
+.carousel{ 
+    height:200px;
+}
