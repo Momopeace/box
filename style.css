@@ -27,10 +27,13 @@ font-size: 30px;}
 .small{
     font-size: 15px;
 }
+
 .article{display: flex;
-justify-content: space-around;}
-article{background-color: blue;
-height: 100px;}
+justify-content: space-around; }
+
+article {background-color: blue;
+    height: 100px;
+    }
 
 hr {
     border: none;
@@ -39,4 +42,30 @@ hr {
     overflow: visible;
     text-align: center;
     height: 5px;
+}
+
+.form {
+    display :flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.form input textarea {
+    margin:auto;
+    width: 80%;
+    padding: 10px;
+    border :2px solid black;
+}
+
+.form input {
+    
+    padding-right: 100px;
+    margin: 10px;
+    margin-left: 450px;
+}
+
+.form textarea {
+    width : 260px;
+    height: 60px;
+    margin : 5px 450px;
 }
