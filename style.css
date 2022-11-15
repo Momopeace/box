@@ -1,24 +1,33 @@
-* {margin: 0;}
+body {margin:0;
+padding:0;
+}
 
 
-nav {
-    background-color: aliceblue;
+nav  {
+    background-color: red;
+    height: 1.2rem;
+}
+nav ul li{
+    display: inline-block;
     margin-top: 0;
+    padding-inline: .5rem;
 }
-nav li{
-    background-color: aliceblue;
-    margin-top: 0;
-}
+.color{background-color: yellow;}
 
-nav li:nth-of-type(even){
-    background-color: darkgray;
-    box-sizing: border-box;
-}
 
-nav li:first-child{
-    font-size: 30px;
-
-}
-.carousel{ 
+.carousel{  background-color: darkgray;
     height:200px;
+    max-width: 100%;
 }
+.title{ 
+    color: black;
+text-align: center;
+font-size: 30px;}
+
+.small{
+    font-size: 15px;
+}
+.article{display: flex;
+justify-content: space-around;}
+article{background-color: blue;
+height: 100px;}
