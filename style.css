@@ -33,6 +33,7 @@ justify-content: space-around; }
 
 article {background-color: blue;
     height: 100px;
+    width: 100px;
     }
 
 hr {
